@@ -21,7 +21,6 @@ RUN . /clone.sh BLIP https://github.com/salesforce/BLIP.git 48211a1594f1321b00f1
 
 #RUN wget -O /model.safetensors https://civitai.com/api/download/models/15236
 ADD model.safetensors /
-ADD model2.safetensors /
 
 # ---------------------------------------------------------------------------- #
 #                        Stage 3: Build the final image                        #
